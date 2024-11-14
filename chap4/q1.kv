@@ -1,0 +1,30 @@
+MyWidgets:
+
+<MyWidgets>
+    orientation:'vertical'
+    BoxLayout:
+        Label:
+            text:'First Name : '
+            font_size:20    
+        TextInput:
+            multiline:False
+            font_size:20 
+            
+    BoxLayout: 
+        Label:
+            text:'Last Name : '
+            font_size:20    
+        TextInput:
+            multiline:False
+            font_size:20
+    BoxLayout:
+        orintation: 'vertical'
+        Button:
+            text:"submit"
+            size_hint:(1,1)
+            pos_hint:{'x':0.5}
+        Button:
+            text:"submit"
+            size_hint:(0.5,0.5)
+            pos_hint:{'y':0.25}
+</MyWidgets>

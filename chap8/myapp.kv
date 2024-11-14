@@ -1,0 +1,35 @@
+WindowManager:
+
+<WindowManager>
+    BoxLayout:
+        orientation:"vertical"
+        spacing:10
+        padding:10
+        canvas.before: 
+            
+            Rectangle:
+                pos:self.pos
+                size:self.size
+                source:"mobina.jpeg"
+        Label:
+            id:text_slider
+            color:1,0,0,1
+            font_size:30
+            text:"Hello Word!"
+            text_size:self.size
+            halign:"left"
+            valign:"center"
+        Slider:
+            id:slider
+            on_value: root.slider_change()
+            min:0
+            max:100
+            value:50
+        Button:
+            text:"button1"
+        Button:
+            text:"button2"
+        Button:
+            text:"button3"
+
+<WindowManager/>

@@ -1,0 +1,37 @@
+WindowManager:
+    Window1:
+    Window2:
+
+
+<Window1>
+    name:'window1'
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text:'label 1'
+            size_hint:(1,7)
+        Button:
+            text:'button BoxLayout1' if self.state=="normal" else"hooooooooooooo"
+            on_press: root.btn_peress()
+            background_normal:""
+            background_down:""
+            color:(120,50,100,1)
+            background_color:(200,200,100,1) 
+</Window1>
+
+<Window2>
+    name:'window2'
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text:'label 2'
+            size_hint:(1,7)
+        Button:
+            text:'button BoxLayout2'
+            on_press: root.btn_peress()
+            color:(120,200,100,1)
+            background_color:(120,200,100,1) 
+            background_normal:""
+            background_down:""
+
+</Window2>

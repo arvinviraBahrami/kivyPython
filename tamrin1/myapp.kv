@@ -1,0 +1,36 @@
+WindowManager:
+    Window1:
+    Window2:
+
+
+
+
+<Window1>
+    name:'window1'
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        BoxLayout:
+            Label:
+                text:'userName'
+            TextInput:
+                multiline:False
+                font_size:20
+            BoxLayout:
+                spacing:20
+                Button:
+                    text:'button BoxLayout1'
+                    on_press: root.btn_peress()
+                Button:
+                    text:'button BoxLayout2'
+
+
+</Window1>
+
+<Window2>
+    name:'window2'
+    Button:
+        on_press: root.btn_peress()
+        text:'button 55555555555'
+
+</Window2>
