@@ -26,16 +26,3 @@ MyApp().run()
 
 
 
-
-
-#   username
-#[                   ]
-#
-#  password
-#[                   ]
-##  [submit}
-#
-##-------------
-#    welcome
-#
-##  [logout}
